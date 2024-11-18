@@ -14,9 +14,11 @@
         android:layout_height="wrap_content"
         android:text="Sugerencias y comentarios"
         android:textColorLink="#FFFFFF"
+        android:backgroundTint="#A6E1D6"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
@@ -27,12 +29,14 @@
         android:layout_height="wrap_content"
         android:text="Cerrar sesión"
         android:textColorLink="#FFFFFF"
+        android:backgroundTint="#A6E1D6"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587" />
+        app:layout_constraintVertical_bias="0.584" />
 
     <Button
         android:id="@+id/btnCuentas"
@@ -40,6 +44,8 @@
         android:layout_height="wrap_content"
         android:text="Administrar cuenta"
         android:textColorLink="#FFFFFF"
+        android:backgroundTint="#A6E1D6"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -53,12 +59,14 @@
         android:layout_height="wrap_content"
         android:text="Historial"
         android:textColorLink="#FFFFFF"
+        android:backgroundTint="#A6E1D6"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407" />
+        app:layout_constraintVertical_bias="0.411" />
 
     <Button
         android:id="@+id/btnPerfil"
@@ -66,9 +74,11 @@
         android:layout_height="wrap_content"
         android:text="Perfil"
         android:textColorLink="#FFFFFF"
+        android:backgroundTint="#A6E1D6"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.051" />
@@ -79,12 +89,14 @@
         android:layout_height="wrap_content"
         android:text="Apariencia"
         android:textColorLink="#FFFFFF"
+        android:backgroundTint="#A6E1D6"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <Button
         android:id="@+id/btnPrivacidad"
@@ -92,46 +104,54 @@
         android:layout_height="50dp"
         android:text="Privacidad"
         android:textColorLink="#FFFFFF"
+        android:backgroundTint="#A6E1D6"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.23" />
 
     <Button
         android:id="@+id/btnCamara2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#A6E1D6"
         android:text="Cámara"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956" />
+        app:layout_constraintVertical_bias="0.953" />
 
     <Button
         android:id="@+id/btnChat2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chat"
+        android:backgroundTint="#A6E1D6"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956" />
+        app:layout_constraintVertical_bias="0.953" />
 
     <Button
         android:id="@+id/btnConfiguracion2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Configuración"
+        android:backgroundTint="#12DE73"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956" />
+        app:layout_constraintVertical_bias="0.953" />
 </androidx.constraintlayout.widget.ConstraintLayout>
