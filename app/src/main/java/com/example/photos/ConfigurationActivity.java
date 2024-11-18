@@ -13,7 +13,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class ConfigurationActivity extends AppCompatActivity {
 
-    Button btnchat2, btncamera, btnconfiguraciones;
+    Button btnchat2, btncamera, btnconfiguraciones,btnPerfil,btnApariencia,btnPrivacidad,
+            btnAdministrarCuen,btnHistorial,btnSugerencias;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,59 @@ public class ConfigurationActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent ChatActivity = new Intent(ConfigurationActivity.this, ChatActivity.class);
                 startActivity(ChatActivity);
+            }
+        });
+
+        btnPerfil = (Button) findViewById(R.id.btnPerfil);
+        btnApariencia = (Button) findViewById(R.id.btnApariencia);
+        btnPrivacidad=(Button) findViewById(R.id.btnPrivacidad);
+        btnAdministrarCuen = (Button) findViewById(R.id.btnCuentas);
+        btnHistorial = (Button) findViewById(R.id.btnHistorial);
+        btnSugerencias=(Button) findViewById(R.id.btnSugerencias);
+
+        btnPerfil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Perfil = new Intent(ConfigurationActivity.this, PerfilActivity.class );
+                startActivity(Perfil);
+            }
+        });
+
+        btnApariencia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Apariencia = new Intent(ConfigurationActivity.this, AparienciaActivity.class);
+                startActivity(Apariencia);
+            }
+        });
+        btnPrivacidad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Privacidad = new Intent(ConfigurationActivity.this, PrivacidadActivity.class );
+                startActivity(Privacidad);
+            }
+        });
+
+        btnAdministrarCuen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Administrar = new Intent(ConfigurationActivity.this, AdministrarCuentaActivity.class);
+                startActivity(Administrar);
+            }
+        });
+        btnHistorial.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Historial = new Intent(ConfigurationActivity.this, HistorialActivity.class );
+                startActivity(Historial);
+            }
+        });
+
+        btnSugerencias.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Sugerencias = new Intent(ConfigurationActivity.this, SugerenciasActivity.class);
+                startActivity(Sugerencias);
             }
         });
 
