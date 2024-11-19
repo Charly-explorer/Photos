@@ -80,7 +80,7 @@ public class ConfigurationActivity extends AppCompatActivity {
         btnAdministrarCuen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Administrar = new Intent(ConfigurationActivity.this, AdministrarCuentaActivity.class);
+                Intent Administrar = new Intent(ConfigurationActivity.this, CuentaActivity.class);
                 startActivity(Administrar);
             }
         });

@@ -2,6 +2,8 @@ package com.example.photos;
 
 import android.os.Bundle;
 import android.widget.Button;
+import android.view.View;
+import android.content.Intent;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class AdministrarCuentaActivity extends AppCompatActivity {
+public class CuentaActivity extends AppCompatActivity {
     Button btnBack5,btnConf5;
 
     @Override
@@ -28,7 +30,7 @@ public class AdministrarCuentaActivity extends AppCompatActivity {
         btnBack5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ConfigActivity = new Intent(AdministrarCuentaActivity.this, ConfigurationActivity.class );
+                Intent ConfigActivity = new Intent(CuentaActivity.this, ConfigurationActivity.class );
                 startActivity(ConfigActivity);
             }
         });
@@ -36,7 +38,7 @@ public class AdministrarCuentaActivity extends AppCompatActivity {
         btnConf5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ConfigActivity = new Intent(AdministrarCuentaActivity.this, ConfigurationActivity.class);
+                Intent ConfigActivity = new Intent(CuentaActivity.this, ConfigurationActivity.class);
                 startActivity(ConfigActivity);
             }
         });
